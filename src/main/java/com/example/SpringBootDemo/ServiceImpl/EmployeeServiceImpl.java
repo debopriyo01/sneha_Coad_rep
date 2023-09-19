@@ -13,6 +13,10 @@ import com.example.SpringBootDemo.Service.EmployeeService;
 // ---> Controller-->Service -->EmployeeServiceImpl--->Repository--> Database layer :
 
 @Service
+//--> Which class is annoteted with @service, @Component @repositorysave(employee);
+//@repository--> Connected with database :
+//@Component--> Java pojo class or @Entity class:
+//@Service--> All the funtinality of the methode present in service interface :
 public class EmployeeServiceImpl implements EmployeeService {
 	
 	@Autowired
